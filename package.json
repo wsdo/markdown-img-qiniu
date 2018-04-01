@@ -1,82 +1,82 @@
 {
-    "name": "markdown-img-qiniu",
-    "main": "./lib/markdown-img-qiniu",
-    "version": "1.0.0",
-    "description": "你只需要往atom编辑器复制图片会自动上传到七牛",
-    "keywords": [
-        "markdown",
-        "md",
-        "image",
-        "qiniu",
-        "七牛",
-        "paste"
-    ],
-    "activationCommands": {
-        "atom-workspace": "markdown-img-qiniu:stark"
+  "name": "markdown-img-qiniu",
+  "main": "./lib/markdown-img-qiniu",
+  "version": "2.0.0",
+  "description": "你只需要往atom编辑器复制图片会自动上传到七牛",
+  "keywords": [
+    "markdown",
+    "md",
+    "image",
+    "qiniu",
+    "七牛",
+    "paste"
+  ],
+  "activationCommands": {
+    "atom-workspace": "markdown-img-qiniu:stark"
+  },
+  "repository": "https://github.com/wsdo/markdown-img-qiniu.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "qiniu": "=6.1.11",
+    "request": "^2.55.0"
+  },
+  "configSchema": {
+    "only_markdown": {
+      "type": "boolean",
+      "default": true,
+      "title": "Only in markdown grammar to enable the plugin",
+      "description": ""
     },
-    "repository": "https://github.com/wsdo/markdown-img-qiniu.git",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
+    "use_assets_folder": {
+      "type": "boolean",
+      "default": true,
+      "title": "Save images in assets folder",
+      "description": ""
     },
-    "dependencies": {
-        "qiniu": "=6.1.11",
-        "request": "^2.55.0"
+    "upload_to_qiniu": {
+      "type": "boolean",
+      "default": false,
+      "title": "Use qiniu for image link",
+      "description": ""
     },
-    "configSchema": {
-        "only_markdown": {
-            "type": "boolean",
-            "default": true,
-            "title": "Only in markdown grammar to enable the plugin",
-            "description": ""
-        },
-        "use_assets_folder": {
-            "type": "boolean",
-            "default": true,
-            "title": "Save images in assets folder",
-            "description": ""
-        },
-        "upload_to_qiniu": {
-            "type": "boolean",
-            "default": false,
-            "title": "Use qiniu for image link",
-            "description": ""
-        },
-        "filePrefix": {
-            "type": "string",
-            "default": "stark",
-            "title": "filePrefix",
-            "description": "生成markdown链接前缀自定义"
-        },
-        "zAccessKey": {
-            "type": "string",
-            "default": "",
-            "title": "AccessKey",
-            "description": ""
-        },
-        "zSecretKey": {
-            "type": "string",
-            "default": "",
-            "title": "SecretKey",
-            "description": "七牛配置SecretKey"
-        },
-        "zbucket": {
-            "type": "string",
-            "default": "",
-            "title": "Bucket",
-            "description": "七牛配置Bucket"
-        },
-        "zdomain": {
-            "type": "string",
-            "default": "http://",
-            "title": "Domain",
-            "description": "定义域名"
-        },
-        "zuphost": {
-            "type": "string",
-            "default": "https://up-z1.qiniup.com",
-            "title": "Uphost",
-            "description": "七牛云上传服务器域名，上传出错时可能是上传的区域服务器域名不对。默认不用设置。"
-        }
+    "filePrefix": {
+      "type": "string",
+      "default": "stark",
+      "title": "filePrefix",
+      "description": "生成markdown链接前缀自定义"
+    },
+    "zAccessKey": {
+      "type": "string",
+      "default": "",
+      "title": "AccessKey",
+      "description": ""
+    },
+    "zSecretKey": {
+      "type": "string",
+      "default": "",
+      "title": "SecretKey",
+      "description": "七牛配置SecretKey"
+    },
+    "zbucket": {
+      "type": "string",
+      "default": "",
+      "title": "Bucket",
+      "description": "七牛配置Bucket"
+    },
+    "zdomain": {
+      "type": "string",
+      "default": "http://",
+      "title": "Domain",
+      "description": "定义域名"
+    },
+    "zuphost": {
+      "type": "string",
+      "default": "https://up-z1.qiniup.com",
+      "title": "Uphost",
+      "description": "七牛云上传服务器域名，上传出错时可能是上传的区域服务器域名不对。默认不用设置。"
     }
+  }
 }
