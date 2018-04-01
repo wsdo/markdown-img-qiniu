@@ -26,3 +26,5 @@ Bucket
 Domain
 
 大家用着不方便，或有什么需求可以提issue
+
+![](http://oz5atz93b.bkt.clouddn.com/2018-04-01_12-44-13.gif)
