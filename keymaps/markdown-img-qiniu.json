@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "markdown-img-qiniu:toggle",
+    "ctrl-shift-v": "markdown-img-qiniu:upImg",
+    "ctrl-alt-s": "markdown-img-qiniu:stark"
+  }
+}

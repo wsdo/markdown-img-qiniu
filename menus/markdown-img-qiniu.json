@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle markdown-img-qiniu",
+        "command": "markdown-img-qiniu:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "markdown-img-qiniu",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-img-qiniu:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
