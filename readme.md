@@ -13,13 +13,13 @@
 ### 填写好七牛的配置 域名即可
 filePrefix  设置自己生成链接的前缀 默认stark
 
-下面是列子
-`![](http://md.shudong.wang/stark-20180401122423216.png)`
-http://md.shudong.wang 是配置的七牛的域名
-stark-20180401122423216.png 文件名
-stark 是自定义前缀
+### 下面是列子
+* `![](http://md.shudong.wang/stark-20180401122423216.png)`
+* http://md.shudong.wang 是配置的七牛的域名
+* stark-20180401122423216.png 文件名
+* stark 是自定义前缀
 
-下面这几个是七牛的配置，去七牛注册账号了解一下
+### 下面这几个是七牛的配置，去七牛注册账号了解一下
 AccessKey
 SecretKey
 Bucket
